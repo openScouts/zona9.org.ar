@@ -81,26 +81,26 @@ export default {
   },
 
   manifest: {
-    name: 'Zona 9 - Scouts de Argentina',
-    short_name: 'Zona 9',
-    description: 'Zona 9 – Gran Bs. As. Noroeste - Scouts de Argentina',
-    lang: 'es',
-    background_color: '#E1E1E1',
-    display: 'standalone',
-    orientation: 'portrait',
-    theme_color: '#23b7e5'
+    name: "Zona 9 - Scouts de Argentina",
+    short_name: "Zona 9",
+    description: "Zona 9 – Gran Bs. As. Noroeste - Scouts de Argentina",
+    lang: "es",
+    background_color: "#E1E1E1",
+    display: "standalone",
+    orientation: "portrait",
+    theme_color: "#23b7e5"
   },
   messages: {
-    loading: 'Loading...',
-    error_404: 'Esta página no se pudo encontrar',
-    server_error: 'Error del Servidor',
-    nuxtjs: 'Nuxt.js',
-    back_to_home: 'Volver a la página de inicio',
+    loading: "Loading...",
+    error_404: "Esta página no se pudo encontrar",
+    server_error: "Error del Servidor",
+    nuxtjs: "Nuxt.js",
+    back_to_home: "Volver a la página de inicio",
     server_error_details:
-      'Ocurrió un error en la aplicación y su página no pudo ser servida. Si usted es el propietario de la aplicación, revise sus registros para más detalles.',
-    client_error: 'Error',
+      "Ocurrió un error en la aplicación y su página no pudo ser servida. Si usted es el propietario de la aplicación, revise sus registros para más detalles.",
+    client_error: "Error",
     client_error_details:
-      'Se produjo un error al crear la página. Verifique la consola de herramientas para desarrolladores para más detalles.'
+      "Se produjo un error al crear la página. Verifique la consola de herramientas para desarrolladores para más detalles."
   },
   /*
    ** Axios module configuration
@@ -118,7 +118,7 @@ export default {
         }
       }
     },
-    publicPath: '/_app/',
+    publicPath: "/_app/",
     /*
      ** You can extend webpack config here
      */

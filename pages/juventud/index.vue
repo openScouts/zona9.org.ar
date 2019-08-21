@@ -111,7 +111,11 @@ import {
   mdbBtn
 } from "mdbvue";
 export default {
-  name: "BlogPage",
+  head() {
+    return {
+      title: "Juventud Zonal"
+    };
+  },
   components: {
     mdbContainer,
     mdbRow,

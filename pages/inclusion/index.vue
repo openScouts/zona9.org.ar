@@ -87,7 +87,11 @@ import {
   mdbIcon
 } from "mdbvue";
 export default {
-  name: "ProjectsPage",
+  head() {
+    return {
+      title: "Equipo de Inclusión"
+    };
+  },
   components: {
     mdbContainer,
     mdbRow,

@@ -5,8 +5,7 @@
       <p class="grey-text w-responsive mx-auto mb-5">
         Acompaña y asesora al Director de Zona y Consejo zonal como especialista técnico en su ámbito de competencia.
         <br />Proponer y promover actividades para el fortalecimiento cualitativo del territorio
-        <br />
-Trabajar interdisciplinariamente
+        <br />Trabajar interdisciplinariamente
       </p>
       <mdb-row>
         <template v-for="integrante in comite">
@@ -31,8 +30,8 @@ Trabajar interdisciplinariamente
 
 
 <script>
-import Comite from "./comite.json";
-import axios from "axios";
+import comite from "../../config/comite.json";
+
 import { mdbContainer, mdbRow, mdbCol, mdbView, mdbIcon } from "mdbvue";
 
 export default {
@@ -48,10 +47,9 @@ export default {
       title: "Comite Zonal "
     };
   },
-
   data() {
     return {
-      comite: Comite.comite
+      comite: comite.comite
     };
   }
 };

@@ -1,7 +1,7 @@
 [
   {
     "id": 9009,
-    "Distrito": 0,
+    "distrito": 0,
     "nombre": "Zona 9",
     "fundacion": "",
     "direccion": "Pelagio Luna 2239 (Santos Lugares)",
@@ -15,7 +15,7 @@
   },
   {
     "id": 131,
-    "Distrito": 1,
+    "distrito": 1,
     "nombre": "Nuestra Señora del Líbano",
     "fundacion": "7/11/1992",
     "direccion": "Guido Spano y Monteagudo",
@@ -29,7 +29,7 @@
   },
   {
     "id": 179,
-    "Distrito": 1,
+    "distrito": 1,
     "nombre": "Batalla de Maipú",
     "fundacion": "23/11/1985",
     "direccion": "25 de Mayo y Francia",
@@ -43,7 +43,7 @@
   },
   {
     "id": 1099,
-    "Distrito": 1,
+    "distrito": 1,
     "nombre": "Cruz del Sur",
     "fundacion": "20/7/2009",
     "direccion": "San Juan 3254",
@@ -57,8 +57,8 @@
   },
   {
     "id": 9135,
-    "Distrito": 1,
-    "nombre": "Distrito 1",
+    "distrito": 1,
+    "nombre": "distrito 1",
     "fundacion": "",
     "direccion": "",
     "localidad": "Villa Lynch - San Andrés - San Martín",
@@ -71,7 +71,7 @@
   },
   {
     "id": 58,
-    "Distrito": 2,
+    "distrito": 2,
     "nombre": "Madre Teresa",
     "fundacion": "30/5/1992",
     "direccion": "Juan Pablo II y Piedra Buena",
@@ -85,7 +85,7 @@
   },
   {
     "id": 72,
-    "Distrito": 2,
+    "distrito": 2,
     "nombre": "Ntra Sra de Betharram",
     "fundacion": "24/10/1971",
     "direccion": "Panamá 7855",
@@ -99,7 +99,7 @@
   },
   {
     "id": 177,
-    "Distrito": 2,
+    "distrito": 2,
     "nombre": "Libertad",
     "fundacion": "28/11/1988",
     "direccion": "Claudio Castro 2018",
@@ -113,7 +113,7 @@
   },
   {
     "id": 335,
-    "Distrito": 2,
+    "distrito": 2,
     "nombre": "Ntra Sra de Castelmonte",
     "fundacion": "4/11/1989",
     "direccion": "Churruca 8568",
@@ -127,7 +127,7 @@
   },
   {
     "id": 786,
-    "Distrito": 2,
+    "distrito": 2,
     "nombre": "Santa Rosa de Lima",
     "fundacion": "12/5/2001",
     "direccion": "Avenida Bernabé Márquez 2521",
@@ -141,7 +141,7 @@
   },
   {
     "id": 872,
-    "Distrito": 2,
+    "distrito": 2,
     "nombre": "Malvinas Argentinas",
     "fundacion": "6/4/2002",
     "direccion": "Puerto Argentino 2208",
@@ -155,8 +155,8 @@
   },
   {
     "id": 9136,
-    "Distrito": 2,
-    "nombre": "Distrito 2",
+    "distrito": 2,
+    "nombre": "distrito 2",
     "fundacion": "",
     "direccion": "",
     "localidad": "Martín Coronado - Pablo Podesta - Alto de Podesta",
@@ -169,7 +169,7 @@
   },
   {
     "id": 76,
-    "Distrito": 3,
+    "distrito": 3,
     "nombre": "San Antonio de Padua",
     "fundacion": "10/10/1975",
     "direccion": "General Roca 3468",
@@ -183,7 +183,7 @@
   },
   {
     "id": 111,
-    "Distrito": 3,
+    "distrito": 3,
     "nombre": "Nuestra Señora de Fátima",
     "fundacion": "3/7/1993",
     "direccion": "Comesaña y Díaz Velez",
@@ -197,7 +197,7 @@
   },
   {
     "id": 787,
-    "Distrito": 3,
+    "distrito": 3,
     "nombre": "Santa Juana de Arco",
     "fundacion": "28/4/2001",
     "direccion": "Santa Juana de Arco 3945",
@@ -211,7 +211,7 @@
   },
   {
     "id": 1190,
-    "Distrito": 3,
+    "distrito": 3,
     "nombre": "Monte Calvario",
     "fundacion": "",
     "direccion": "Justo José de Urquiza 3851",
@@ -225,7 +225,7 @@
   },
   {
     "id": 1248,
-    "Distrito": 3,
+    "distrito": 3,
     "nombre": "San Jorge 103",
     "fundacion": "9/7/1959",
     "direccion": "San Jorge 4156",
@@ -239,8 +239,8 @@
   },
   {
     "id": 9137,
-    "Distrito": 3,
-    "nombre": "Distrito 3",
+    "distrito": 3,
+    "nombre": "distrito 3",
     "fundacion": "",
     "direccion": "",
     "localidad": "Ciudadela",
@@ -253,7 +253,7 @@
   },
   {
     "id": 61,
-    "Distrito": 4,
+    "distrito": 4,
     "nombre": "San José Obrero",
     "fundacion": "14/7/1990",
     "direccion": "Pasaje Presbítero Rafael Pazzelli 3352",
@@ -267,7 +267,7 @@
   },
   {
     "id": 74,
-    "Distrito": 4,
+    "distrito": 4,
     "nombre": "San Francisco de Asís",
     "fundacion": "13/5/1968",
     "direccion": "Luis M. Bosch 1120",
@@ -281,7 +281,7 @@
   },
   {
     "id": 93,
-    "Distrito": 4,
+    "distrito": 4,
     "nombre": "Sargento Cabral",
     "fundacion": "28/12/1939",
     "direccion": "General Hornos 2400",
@@ -295,7 +295,7 @@
   },
   {
     "id": 130,
-    "Distrito": 4,
+    "distrito": 4,
     "nombre": "San Leonardo Murialdo",
     "fundacion": "18/5/1981",
     "direccion": "Guido y Spano 1270",
@@ -309,7 +309,7 @@
   },
   {
     "id": 400,
-    "Distrito": 4,
+    "distrito": 4,
     "nombre": "John F. Kennedy",
     "fundacion": "8/10/1964",
     "direccion": "Aviadora Carola Lorenzini 2899",
@@ -323,7 +323,7 @@
   },
   {
     "id": 670,
-    "Distrito": 4,
+    "distrito": 4,
     "nombre": "Mahatma Gandhi",
     "fundacion": "2/10/1998",
     "direccion": "Bonifacini 4881",
@@ -337,7 +337,7 @@
   },
   {
     "id": 1261,
-    "Distrito": 4,
+    "distrito": 4,
     "nombre": "Nelson Mandela",
     "fundacion": "8/11/2014",
     "direccion": "Della Rossa , esq. Belgrano",
@@ -351,8 +351,8 @@
   },
   {
     "id": 9138,
-    "Distrito": 4,
-    "nombre": "Distrito 4",
+    "distrito": 4,
+    "nombre": "distrito 4",
     "fundacion": "4/6/2011",
     "direccion": "Julio Perdiguero 2233",
     "localidad": "Caseros - Villa Bosch - Ciudad Jardín *limites del D4 desde Puan, Av. Republica, Perdriel, Santa Cruz, Av. Marconi, atravezando Colegio Militar hasta Vias FCGU, Vias FCGU, San Lorenzo, Av. Triunvirato, Av. San Martin, Puan.*",
@@ -365,7 +365,7 @@
   },
   {
     "id": 32,
-    "Distrito": 5,
+    "distrito": 5,
     "nombre": "Santo Cristo",
     "fundacion": "27/9/1973",
     "direccion": "Ejército de Los Andes 1373",
@@ -379,7 +379,7 @@
   },
   {
     "id": 117,
-    "Distrito": 5,
+    "distrito": 5,
     "nombre": "Nuestra Señora de Loreto",
     "fundacion": "24/4/1967",
     "direccion": "Colón 1349",
@@ -393,7 +393,7 @@
   },
   {
     "id": 132,
-    "Distrito": 5,
+    "distrito": 5,
     "nombre": "Santa Teresita del Niño Jesús",
     "fundacion": "7/1/1990",
     "direccion": "Manuel Estrada 745",
@@ -407,7 +407,7 @@
   },
   {
     "id": 136,
-    "Distrito": 5,
+    "distrito": 5,
     "nombre": "Nuestra Señora de Lourdes",
     "fundacion": "12/3/1939",
     "direccion": "Padre Silberman 1525",
@@ -421,7 +421,7 @@
   },
   {
     "id": 137,
-    "Distrito": 5,
+    "distrito": 5,
     "nombre": "Nuestra Señora de la Merced",
     "fundacion": "15/8/1963",
     "direccion": "Nuestra Señora de la Merced 4624",
@@ -435,8 +435,8 @@
   },
   {
     "id": 9139,
-    "Distrito": 5,
-    "nombre": "Distrito 5",
+    "distrito": 5,
+    "nombre": "distrito 5",
     "fundacion": "12/12/2001",
     "direccion": "",
     "localidad": "José Ingenieros - Saenz Peña - Santos Lugares - Caseros",
@@ -449,7 +449,7 @@
   },
   {
     "id": 4,
-    "Distrito": 6,
+    "distrito": 6,
     "nombre": "110 Nuestra Señora del Rosario",
     "fundacion": "15/8/1959",
     "direccion": "66 José C. Paz 4800",
@@ -463,7 +463,7 @@
   },
   {
     "id": 15,
-    "Distrito": 6,
+    "distrito": 6,
     "nombre": "Juan Martín de Pueyrredon",
     "fundacion": "27/11/1989",
     "direccion": "Sarmiento 4491",
@@ -477,7 +477,7 @@
   },
   {
     "id": 22,
-    "Distrito": 6,
+    "distrito": 6,
     "nombre": "Perito Moreno",
     "fundacion": "3/10/1986",
     "direccion": "Jujuy 541",
@@ -491,7 +491,7 @@
   },
   {
     "id": 509,
-    "Distrito": 6,
+    "distrito": 6,
     "nombre": "Nuestra Señora del Rosario",
     "fundacion": "6/10/1995",
     "direccion": "32 San Carlos 4649",
@@ -505,7 +505,7 @@
   },
   {
     "id": 1084,
-    "Distrito": 6,
+    "distrito": 6,
     "nombre": "Scout Mayor Juan Pablo Pino Anzorena",
     "fundacion": "4/8/2007",
     "direccion": "Av. Juan D. Perón 5647",
@@ -519,7 +519,7 @@
   },
   {
     "id": 1134,
-    "Distrito": 6,
+    "distrito": 6,
     "nombre": "San Antonio",
     "fundacion": "",
     "direccion": "92 López y Planes 5257",
@@ -533,7 +533,7 @@
   },
   {
     "id": 1372,
-    "Distrito": 6,
+    "distrito": 6,
     "nombre": "Galileo Galilei",
     "fundacion": "1/5/2017",
     "direccion": "",
@@ -547,8 +547,8 @@
   },
   {
     "id": 9140,
-    "Distrito": 6,
-    "nombre": "Distrito 6",
+    "distrito": 6,
+    "nombre": "distrito 6",
     "fundacion": "7/3/2002",
     "direccion": "Industria N° 3410 ex 480 (entre Misiones y Carlos J. Benielli)",
     "localidad": "Villa Ballester - Barrio de Malaver",
@@ -561,7 +561,7 @@
   },
   {
     "id": 118,
-    "Distrito": 7,
+    "distrito": 7,
     "nombre": "Laureano A. Baudizzone",
     "fundacion": "5/6/1935",
     "direccion": "Lacroze 444",
@@ -575,7 +575,7 @@
   },
   {
     "id": 150,
-    "Distrito": 7,
+    "distrito": 7,
     "nombre": "San Francisco de Asís",
     "fundacion": "18/5/1985",
     "direccion": "63 General JA Frías 7490",
@@ -589,7 +589,7 @@
   },
   {
     "id": 1208,
-    "Distrito": 7,
+    "distrito": 7,
     "nombre": "N. S. Lourdes de San Cayetano",
     "fundacion": "1/5/2013",
     "direccion": "208 San Cayetano y 29 Manuel Estrada",
@@ -603,8 +603,8 @@
   },
   {
     "id": 9141,
-    "Distrito": 7,
-    "nombre": "Distrito 7",
+    "distrito": 7,
+    "nombre": "distrito 7",
     "fundacion": "15/8/2011",
     "direccion": "",
     "localidad": "Villa Ballester - José León Suarez",

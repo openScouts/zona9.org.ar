@@ -34,6 +34,12 @@ export default {
   components: {
     FullCalendar // make the <FullCalendar> tag available
   },
+
+  head() {
+    return {
+      title: "Calendario Zonal"
+    };
+  },
   data() {
     return {
       calendarPlugins: [dayGridPlugin, googleCalendarPlugin]

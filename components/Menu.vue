@@ -8,6 +8,7 @@
         <mdb-nav-item to="/calendario">Calendario</mdb-nav-item>
         <mdb-nav-item to="/juventud">Juventud</mdb-nav-item>
         <mdb-nav-item to="/inclusion">Inclusion</mdb-nav-item>
+        <mdb-nav-item to="/contacto">Contacto</mdb-nav-item>
       </mdb-navbar-nav>
     </mdb-navbar-toggler>
   </mdb-navbar>

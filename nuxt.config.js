@@ -22,7 +22,8 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Zona 9 – Gran Bs. As. Noroeste - Scouts de Argentina"
+        content:
+          "Zona 9 – Gran Bs. As. Noroeste - Scouts de Argentina - Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos.Nuestro medio es la educación no formal, educación alternativa que potencie las capacidades de las personas, que no se agota en un tiempo o en un lugar específico y que se brinda en forma permanente"
       }
     ],
     link: [

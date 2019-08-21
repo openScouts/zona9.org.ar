@@ -1,96 +1,6 @@
 <template>
   <div>
-    <!-- Marketing Icons Section -->
-    <div class="row text-center">
-      <div class="col-sm-4 align-items-stretch">
-        <div class="feature-item animated cargando m-2 p-2">
-          <nuxt-link to="/noticias" class="c-black">
-            <div class="icon-block">
-              <h2 class="mdc-text-green-500">
-                <i class="zmdi zmdi-format-subject zmdi-hc-3x animated infinite pulse zmdi-hc-fw"></i>
-              </h2>
-              <h5>Noticias</h5>
-              <p class="mdc-text-grey-700">Enterate de las ultimas novedades de nuestra zona 9</p>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
-      <div class="col-sm-4 align-items-stretch">
-        <div class="feature-item animated cargando m-2 p-2">
-          <nuxt-link to="/comite" class="c-black">
-            <div class="icon-block">
-              <h2 class="mdc-text-green-500">
-                <i class="zmdi zmdi-accounts-alt zmdi-hc-3x animated infinite pulse zmdi-hc-fw"></i>
-              </h2>
-              <h5>Comite</h5>
-              <p class="mdc-text-grey-700">Conoce como esta compuesto nuestro equipo Zonal</p>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
-      <div class="col-sm-4 align-items-stretch">
-        <div class="feature-item animated cargando m-2 p-2">
-          <a href="https://mirincon.com.ar/" class="c-black">
-            <div class="icon-block">
-              <h2 style="fill:green" class="text-center">
-                <svg>
-                  <image class="change-my-color" xlink:href="/imagenes/links/mirincon.svg" />
-                </svg>
-              </h2>
-              <p
-                class="mdc-text-grey-700"
-              >Este es tu espacio, aqui podrás ver tu formación e inscribirte a las experiencias</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-sm-4 align-items-stretch">
-        <div class="feature-item animated cargando m-2 p-2">
-          <nuxt-link to="/fotos" class="c-black">
-            <div class="icon-block">
-              <h2 class="mdc-text-green-500">
-                <i class="zmdi zmdi-puzzle-piece zmdi-hc-3x animated infinite pulse zmdi-hc-fw"></i>
-              </h2>
-              <h5>Fotos</h5>
-              <p class="mdc-text-grey-700">Conoce a la gente de nuestra zona</p>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
-      <div class="col-sm-4 align-items-stretch">
-        <div class="feature-item animated cargando m-2 p-2">
-          <nuxt-link to="/calendario" class="c-black">
-            <div class="icon-block">
-              <h2 class="mdc-text-green-500">
-                <i class="zmdi zmdi-calendar zmdi-hc-3x animated infinite pulse zmdi-hc-fw"></i>
-              </h2>
-              <h5>Calendario</h5>
-              <p
-                class="mdc-text-grey-700"
-              >Conoce todas las fechas importantes dentro de nuestra zona</p>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
-      <div class="col-sm-4 align-items-stretch">
-        <div class="feature-item animated cargando m-2 p-2">
-          <nuxt-link to="/biblioteca" class="c-black">
-            <div class="icon-block">
-              <h2 class="mdc-text-green-500">
-                <img src="/imagenes/links/cds.svg" />
-              </h2>
-              <h5>Cruz del Sur</h5>
-              <p
-                class="mdc-text-grey-700"
-              >Accede a todos los ultimos documentos, que facilitan tu tarea.</p>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-
+    <links></links>
     <!-- Seccion Noticias -->
 
     <h2 class="h1-responsive">Ultimas Noticias</h2>
@@ -110,42 +20,6 @@
         </mdb-card>
       </template>
     </mdb-card-group>
-
-    <!-- /.row -->
-
-    <!-- Features Section -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Modern Business Features</h2>
-        <p>The Modern Business template by Start Bootstrap includes:</p>
-        <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
-          <li>Unstyled page elements for easy customization</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded" src="https://placehold.it/700x450" alt />
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr />
-
-    <!-- Call to Action Section -->
-    <div class="row mb-4">
-      <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-      </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" to="#">Call to Action</a>
-      </div>
-    </div>
   </div>
 </template>
     
@@ -153,6 +27,7 @@
 <script>
 const moment = require("moment");
 import axios from "axios";
+import links from "../components/Links";
 import {
   mdbContainer,
   mdbRow,
@@ -193,7 +68,8 @@ export default {
     mdbBtn,
     mdbView,
     mdbMask,
-    mdbIcon
+    mdbIcon,
+    links
   },
 
   data() {

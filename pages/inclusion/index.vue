@@ -16,7 +16,7 @@
               <p class="grey-text">
                 La zona cuenta con un equipo de apoyo para todos nuestros adultos que tengan una alguna situación complicada referida a nuestros beneficiarios
                 a traves de nuestra casilla podes realizar tu consulta y te asesoraremos sobre los pasos a seguir.
-                En temas referidos a Violencia familiar, trastornos de personalidad, psicológicos, emocionales, problemas físicos y legales.
+                <br />En temas referidos a Violencia familiar, trastornos de personalidad, psicológicos, emocionales, problemas físicos y legales.
                 <br />Siempre listos
                 <br />Equipo de inclusión zona9
               </p>

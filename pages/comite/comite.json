@@ -1,0 +1,64 @@
+{
+  "comite": [
+    {
+      "codigo": "dz",
+      "funcion": "Director de Zona",
+      "nombre": "M.S. Rogelio Brusella",
+      "descripcion": "descEn el ámbito de sus facultades y responsabilidades y en la jurisdicción territorial de Tres de Febrero y San Martín, representa a la autoridad ejecutiva de la Asociación. Apoya a los Directores de Distrito en todo aquello que tienda  al buen funcionamiento  y al crecimiento cualitativo y cuantitativo de la Asociación en los Distritos"
+    },
+    {
+      "codigo": "azci",
+      "funcion": "Comunicaciones Institucionales",
+      "nombre": "M.S. Andres Lacquaniti",
+      "descripcion": "Sus tareas consisten en promover, coordinar y dirigir todas las actividades zonales que tengan relación con la aplicación de la Pólitica de Comunicaciones e Imagen de la Asociación en la Zona."
+    },
+    {
+      "codigo": "azj",
+      "funcion": "Juventud",
+      "nombre": "M.S. Marcos Barzola",
+      "descripcion": "Es su función difundir, promover y hacer aplicar las pautas de la Dirección Nacional de Juventud de la Asociación.Representa a Scouts de Argentina ante los diversos organismos gubernamentales y Organizaciones de la Sociedad Civil vinculadas con la  temática de Juventud a Nivel de la Zona, en coordinación con el Director Nacional de Juventud."
+    },
+    {
+      "codigo": "azp",
+      "funcion": "Programa de Jóvenes",
+      "nombre": "M.S. Paola Catanneo",
+      "descripcion": "Su función consiste en difundir, promover y hacer aplicar las pautas del Programa Educativo de la Asociación, promover y coordinar las actividades de programa planificadas para la Zona; y prestar apoyo a la tarea de aplicación del Programa Educativo que se realiza en cada uno de los Distritosdd"
+    },
+    {
+      "codigo": "azayf",
+      "funcion": "Administración y Finanzas",
+      "nombre": "M.S. Rogelio Brusella",
+      "descripcion": "Su función consiste en promover, coordinar y dirigir todas las actividades zonales que tengan relación con la administración, el equipamiento, el patrimonio y las políticas financieras de la Asociación en la Zona."
+    },
+    {
+      "codigo": "azeys",
+      "funcion": "Emergencias y Servicios",
+      "nombre": "M.S. Alejandro Lopez",
+      "descripcion": "Su función es asistir al Director de Zona en los temas relacionados con las Emergencias, Contingencias, Desastres y /o Servicios a la comunidad y en cumplimiento de las disposiciones emanadas de la Dirección de Emergencias y Servicios. Supervisa y asesora en la confección de los Planes de Emergencia y de Contingencia de los grupos Scouts de su Zona, tanto en la prevención de accidentes en toda actividad Scout como así también la seguridad de los local/sede como de los lugares de campamentos y salidas."
+    },
+    {
+      "codigo": "azdi",
+      "funcion": "Desarrollo Institucional",
+      "nombre": "M.S. Marcela Teves",
+      "descripcion": "Su función consiste en asegurar el Desarrollo Institucional y las Relaciones Institucionales con Organismos gubernamentales, privados y Ongs a través de acciones o programas de Apoyo requeridas."
+    },
+    {
+      "codigo": "azams",
+      "funcion": "Adultos en el Movimiento Scout",
+      "nombre": "M.S. xxxxxxxxx",
+      "descripcion": "Su función consiste en velar por la correcta aplicación de la Política de Recursos Adultos de la Asociación, promover y coordinar las actividades zonales de captación, formación y seguimiento de los Recursos Adultos."
+    },
+    {
+      "codigo": "azes",
+      "funcion": "Encuentros",
+      "nombre": "M.S. Cristina Rago",
+      "descripcion": "Su función es asistir al Director de Zona en los temas relacionados con la infraestructura de eventos, actividades, experiencias de formación y todo aquello que asi lo que requiera. "
+    },
+    {
+      "codigo": "azpc",
+      "funcion": "Comisionada Pastoral Catolica",
+      "nombre": "",
+      "descripcion": ""
+    }
+  ]
+}

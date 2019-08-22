@@ -25,6 +25,29 @@ export default {
     Cabecera,
     Pie
   },
+  data() {
+    return {
+      structuredData: {
+        "@context": "http://schema.org/",
+        "@type": "Organization",
+        "name": "Zona 9 - Scouts de Argentina",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pelagio Luna 2235",
+          "addressLocality": "Caseros",
+          "addressRegion": "Buenos Aires",
+          "postalCode": "B1678"
+        },
+        "telephone": "0"
+      }
+    }
+  },
+   head() {
+    return {
+      __dangerouslyDisableSanitizers: ['script'],
+      script: [{ innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json' }]
+    }
+  },
   created: function() {}
 };
 </script>

@@ -19,13 +19,28 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "author", content: "Andres Lacquaniti" },
       {
         hid: "description",
         name: "description",
-        content:
-          "Zona 9 – Gran Bs. As. Noroeste - Scouts de Argentina - Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos.Nuestro medio es la educación no formal, educación alternativa que potencie las capacidades de las personas, que no se agota en un tiempo o en un lugar específico y que se brinda en forma permanente"
-      }
+        content: "Zona 9 – Gran Bs. As. Noroeste -  Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos. Nuestro medio es la educación no formal"
+      },
+
+      { property:"og:type" ,content:"business.business"  },
+      { property:"og:title", content:"Zona 9  - Scouts de Argentina" },
+      { property:"og:url", content:"https://zona9.org.ar"  },
+      { property:"og:image" ,content:"https://zona9.org.ar/icon.png"  },
+      { property:"business:contact_data:street_address" ,content:"Pelagio Luna 2235"  },
+      { property:"business:contact_data:locality", content:"Caseros"  },
+      { property:"business:contact_data:region" ,content:"Buenos Aires"  },
+      { property:"business:contact_data:postal_code", content:"1678"  },
+      { property:"business:contact_data:country_name" ,content:"Argentina" },
+
+
     ],
+
+
+
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {

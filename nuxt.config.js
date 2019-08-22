@@ -68,8 +68,13 @@ export default {
     ],
     "@nuxtjs/onesignal",
     "@nuxtjs/axios",
-    "@nuxtjs/pwa"
+    "@nuxtjs/pwa",
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://example.com',
+    gzip: true
+  },
   oneSignal: {
     init: {
       appId: "5609dcae-8202-473f-8fc5-406e64d420af",

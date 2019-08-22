@@ -72,7 +72,7 @@ export default {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: 'https://example.com',
+    hostname: 'https://zona9.org.ar/',
     gzip: true
   },
   oneSignal: {

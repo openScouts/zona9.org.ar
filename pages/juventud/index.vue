@@ -25,8 +25,7 @@
         <h3 class="font-weight-bold mb-3 p-0">
           <strong>{{item.titulo}}</strong>
         </h3>
-        <p class="dark-grey-text">
-          {{item.descripcion}}
+        <p class="dark-grey-text" v-html="item.descripcion">
         </p>
         <p>
           <a class="font-weight-bold">Email de Contacto:</a> {{item.email}}

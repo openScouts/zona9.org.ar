@@ -3,7 +3,7 @@
     <links></links>
     <!-- Seccion Noticias -->
 
-    <h2 class="h1-responsive">Ultimas Noticias</h2>
+    <h1 class="h1-responsive">Ultimas Noticias</h1>
     <hr />
     <mdb-card-group column>
       <template v-for="noti in noticias.data">

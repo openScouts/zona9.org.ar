@@ -1,7 +1,7 @@
 <template>
   <mdb-container>
     <section class="text-center">
-      <h2 class="h1-responsive font-weight-bold my-5">Comite Zonal</h2>
+      <h1 class="h1-responsive font-weight-bold my-5">Comite Zonal</h1>
       <p class="grey-text w-responsive mx-auto mb-5">
         Acompaña y asesora al Director de Zona y Consejo zonal como especialista técnico en su ámbito de competencia.
         <br />Proponer y promover actividades para el fortalecimiento cualitativo del territorio

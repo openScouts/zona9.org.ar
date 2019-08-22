@@ -1,6 +1,6 @@
 <template>
   <mdb-container>
-    <h2 class="h1-responsive">Grupos</h2>
+    <h1 class="h1-responsive">Grupos</h1>
     <hr />
 
     <!--

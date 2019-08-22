@@ -1,7 +1,7 @@
 <template>
   <mdb-container>
     <section class="my-5">
-      <h2 class="h1-responsive font-weight-bold text-center my-5">Inclusión</h2>
+      <h1 class="h1-responsive font-weight-bold text-center my-5">Inclusión</h1>
       <mdb-row>
         <mdb-col lg="5" class="mb-lg-0 mb-5">
           <img src="/imagenes/inclusion.svg" alt="Sample project image" class="img-fluid rounded" />

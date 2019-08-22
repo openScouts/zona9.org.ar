@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="h1-responsive">Calendario de Formacion</h2>
+    <h1 class="h1-responsive">Calendario de Formacion</h1>
     <hr />
     <FullCalendar
       defaultView="dayGridMonth"

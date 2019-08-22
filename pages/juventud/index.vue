@@ -1,6 +1,6 @@
 <template>
   <mdb-container>
-    <h2 class="h1-responsive font-weight-bold text-center my-5">Juventud en la Zona 9</h2>
+    <h1 class="h1-responsive font-weight-bold text-center my-5">Juventud en la Zona 9</h1>
     <p class="text-center w-responsive mx-auto mb-5">
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

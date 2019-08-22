@@ -1,0 +1,4 @@
+# robots.txt generado por toolseo.net
+User-agent: *
+Disallow: 
+Sitemap: https://zona9.org.ar/sitemap.xml

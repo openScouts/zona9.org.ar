@@ -1,9 +1,9 @@
 <template>
   <mdb-container>
     <section class="my-5">
-      <h2
+      <h1
         class="h1-responsive font-weight-bold text-center my-5"
-      >Bienvenidos a la Zona 9 - Gran Bs. As. Noroeste</h2>
+      >Bienvenidos a la Zona 9 - Gran Bs. As. Noroeste</h1>
       <!--
       <p
         class="lead grey-text w-responsive text-center mx-auto mb-5"

@@ -1,7 +1,9 @@
 <template>
   <div>
+     <install-prompt></install-prompt>
     <links></links>
     <!-- Seccion Noticias -->
+     
 
     <h1 class="h1-responsive">Ultimas Noticias</h1>
     <hr />
@@ -25,6 +27,8 @@
     
 
 <script>
+import InstallPrompt from '../components/InstallPrompt';
+
 const moment = require("moment");
 import axios from "axios";
 import links from "../components/Links";
@@ -69,7 +73,8 @@ export default {
     mdbView,
     mdbMask,
     mdbIcon,
-    links
+    links,
+    InstallPrompt
   },
 
   data() {

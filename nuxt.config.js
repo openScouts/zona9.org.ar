@@ -3,7 +3,7 @@ import fs from "fs";
 require("dotenv").config();
 
 export default {
-  mode: "spa",
+  mode: "universal",
 
   server: {
     https: {
@@ -105,7 +105,7 @@ export default {
    ** Variables de Entorno
    */
   env: {
-    GOOGLE_PHOTOS_KEY: "HOLA MUNDO"
+    GOOGLE_PHOTOS_KEY: process.env.GOOGLE_PHOTOS_KEY
   },
   manifest: {
     name: "Zona 9 - Scouts de Argentina",

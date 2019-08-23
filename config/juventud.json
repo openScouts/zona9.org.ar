@@ -1,0 +1,44 @@
+[
+  {
+    "img": "Scoutxlavida.jpeg",
+    "titulo": "Scouts x la vida",
+    "descripcion": "Scouts por la Vida es un Programa de Scouts de Argentina que nuclea a todas aquellas propuestas, proyectos, empresas, acciones que se encuentran enmarcadas en el ámbito de la Educación para la Salud y nace con la intención de facilitar experiencias educativas significativas en las áreas de la Promoción y Concientización sobre temas de salud en general",
+    "email": "scoutsporlavida@zona9.org.ar"
+  },
+  {
+    "img": "ayudaenforos.jpeg",
+    "titulo": "Ayuda en foros",
+    "descripcion": "su función es colaborar con Grupos, Distrito y Zona, en la elaboración y dudas que surjan sobre los distintos Foros",
+    "email": "foros@zona9.org.ar"
+  },
+  {
+    "img": "mensajerosdelapaz.jpeg",
+    "titulo": "Mensajeros de la Paz",
+    "descripcion": "La Iniciativa de los Mensajeros de Paz del Movimiento Scout Mundial, fue puesta en marcha por el Comité Scout Mundial en 2011, tiene como objetivo inspirar a los millones de Scouts que están haciendo cosas increíbles en sus comunidades locales con el fin de informarle al mundo sobre el mismo, y por lo tanto inspirar a otros Scouts para hacer aún más. Cualquier proyecto Scout que traiga un cambio positivo a una comunidad - su salud, el medio ambiente, las circunstancias sociales, de seguridad o que atienda asuntos de conflicto - es un proyecto de Mensajeros de la Paz",
+    "email": "mensajeros@zona9.org.ar"
+  },
+  {
+    "img": "medioambiente.jpeg",
+    "titulo": "Medio Ambiente",
+    "descripcion": "El Programa Scout Mundial para el Medio Ambiente es una colección de herramientas, recursos e iniciativas que tienen como fin apoyar el desarrollo de la educación en medio ambiente en el Movimiento Scout Mundial.<br/> El programa se basa en una serie de principios medioambientales y objetivos que dan una base a la educación en medio ambiente dentro del Movimiento Scout.<br/>El Programa Scout Mundial para el Medio Ambiente incluye:<br/><br/> - Principios y objetivos para la educación ambiental en el Movimiento Scout.<br/> - Marco de referencia para la educación ambiental y la Insignia Scout Mundial del Medio Ambiente.<br/> - Programa Recursos para las Actividades <br/> - SCENES – Centros Scout para la Excelencia en materia Ambiental y sobre la Naturaleza. Estos son Centros Scout que proporcionan escenarios naturales, ofrecen programas de educación en medio ambiente y demuestran buenas prácticas medioambientales.<br/> - Premio Scouts del Mundo, Elemento Ambiental<br/> - Las alianzas fortalecen el trabajo en la materia.",
+    "email": "medioambiente@zona9.org.ar"
+  },
+  {
+    "img": "scoutsdelmundo.jpeg",
+    "titulo": "Scouts del Mundo",
+    "descripcion": "El Reconocimiento Scouts del Mundo es una propuesta del Movimiento Scout para jóvenes que buscan un cambio positivo para la humanidad.<br/>En la actualidad, jóvenes, hombres y mujeres tenemos el reto de adquirir los conocimientos, habilidades y motivación necesarios para ser parte activa en la generación de cambios sociales a nivel local, nacional e internacional para crear una sociedad más abierta, justa y pacífica.<br/>Por eso, en este proyecto atemporal dividido en 3 fases (exploración, descubrimiento y servicio) se busca abrir campos de acción y responsabilidad para los jóvenes, a través de alianzas con otros actores de la sociedad civil." ,
+    "email": "scoutsdelmundo@zona9.org.ar"
+  },
+  {
+    "img": "disenio.jpeg",
+    "titulo": "Diseño",
+    "descripcion": "Su función es generar todo tipo de soportes gráficos al Equipo Zonal de Juventud.",
+    "email": "z9.juventud@scouts.org.ar"
+  },
+  {
+    "img": "comunicaciones.jpeg",
+    "titulo": "Comunicaciones",
+    "descripcion": "Su funcion, es dar la difusion necesaria a todo lo relacionado con el Area de Juventud en Redes Sociales como Facebook e Instagram. Seguinos en Facebook en Juventud Zona Nueveo en instagram zona9saac",
+    "email": "z9.juventud@scouts.org.ar"
+  }
+]

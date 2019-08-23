@@ -15,7 +15,7 @@
 
 <style scoped>
 .jumbotron {
-  margin-top: 56px;
+  margin-top: 54px;
 }
 </style>
 

@@ -3,8 +3,8 @@
     <mdb-modal frame position="bottom" direction="bottom" :show="showInstallBanner" @close="showInstallBanner = false">
         <mdb-modal-body class="text-center">
             <span>Instalar como Aplicacion ?</span>
-            <mdb-btn color="secondary" @click.native="showInstallBanner = false">Cancelar</mdb-btn>
-            <mdb-btn color="primary" @click.prevent="install">Instalar</mdb-btn>
+            <mdb-btn color="danger" @click.native="showInstallBanner = false">Cancelar</mdb-btn>
+            <a href="#" class="btn btn-success" @click.prevent="install">Instalar</a>
         </mdb-modal-body>
     </mdb-modal>
   </div>

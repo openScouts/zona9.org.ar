@@ -9,13 +9,13 @@
           </mdb-col>
           <mdb-col md="6" lg="7" class="text-center text-md-right">
             <a class="fb-ic ml-0" href="https://www.facebook.com/zona9scoutsargentina">
-              <i class="fab fa-facebook white-text mr-lg-4"></i>
+              <i class="fab fa-2x fa-facebook white-text mr-lg-4"></i>
             </a>
             <a class="ins-ic" href="https://www.instagram.com/zona9saac/">
-              <i class="fab fa-instagram white-text mr-lg-4"></i>
+              <i class="fab fa-2x fa-instagram white-text mr-lg-4"></i>
             </a>
             <a class="ins-ic" href="https://github.com/caseroft/zona9.org.ar">
-              <i class="fab fa-github white-text mr-lg-4"></i>
+              <i class="fab fa-2x fa-github white-text mr-lg-4"></i>
             </a>
           </mdb-col>
         </mdb-row>

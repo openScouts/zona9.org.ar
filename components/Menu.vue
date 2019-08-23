@@ -26,17 +26,17 @@
       <ul class="navbar-nav nav-flex-icons">
         <li class="nav-item">
           <a class="nav-link" href="https://www.facebook.com/zona9scoutsargentina">
-            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-lg fa-facebook-f"></i>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/caseroft/zona9.org.ar">
-            <i class="fab fa-github"></i>
+            <i class="fab fa-lg fa-github"></i>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.instagram.com/zona9saac/">
-            <i class="fab fa-instagram"></i>
+            <i class="fab fa-lg fa-instagram"></i>
           </a>
         </li>
       </ul>

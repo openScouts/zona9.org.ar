@@ -5,6 +5,7 @@
         <mdb-nav-item to="/" active>Inicio</mdb-nav-item>
         <mdb-nav-item to="/comite">Comite</mdb-nav-item>
         <mdb-nav-item to="/grupos">Grupos</mdb-nav-item>
+		<mdb-nav-item to="/biblioteca">Biblioteca</mdb-nav-item>
         <mdb-nav-item to="/calendario">Calendario</mdb-nav-item>
         <mdb-nav-item to="/juventud">Juventud</mdb-nav-item>
         <mdb-nav-item to="/inclusion">Inclusión</mdb-nav-item>

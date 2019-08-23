@@ -1,5 +1,6 @@
 import path from "path";
 import fs from "fs";
+require("dotenv").config();
 
 export default {
   mode: "spa",
@@ -23,23 +24,23 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Zona 9 – Gran Bs. As. Noroeste -  Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos. Nuestro medio es la educación no formal"
+        content:
+          "Zona 9 – Gran Bs. As. Noroeste -  Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos. Nuestro medio es la educación no formal"
       },
 
-      { property:"og:type" ,content:"business.business"  },
-      { property:"og:title", content:"Zona 9  - Scouts de Argentina" },
-      { property:"og:url", content:"https://zona9.org.ar"  },
-      { property:"og:image" ,content:"https://zona9.org.ar/icon.png"  },
-      { property:"business:contact_data:street_address" ,content:"Pelagio Luna 2235"  },
-      { property:"business:contact_data:locality", content:"Caseros"  },
-      { property:"business:contact_data:region" ,content:"Buenos Aires"  },
-      { property:"business:contact_data:postal_code", content:"1678"  },
-      { property:"business:contact_data:country_name" ,content:"Argentina" },
-
-
+      { property: "og:type", content: "business.business" },
+      { property: "og:title", content: "Zona 9  - Scouts de Argentina" },
+      { property: "og:url", content: "https://zona9.org.ar" },
+      { property: "og:image", content: "https://zona9.org.ar/icon.png" },
+      {
+        property: "business:contact_data:street_address",
+        content: "Pelagio Luna 2235"
+      },
+      { property: "business:contact_data:locality", content: "Caseros" },
+      { property: "business:contact_data:region", content: "Buenos Aires" },
+      { property: "business:contact_data:postal_code", content: "1678" },
+      { property: "business:contact_data:country_name", content: "Argentina" }
     ],
-
-
 
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
@@ -84,10 +85,11 @@ export default {
     "@nuxtjs/onesignal",
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
-    '@nuxtjs/sitemap'
+    "@nuxtjs/sitemap",
+    "@nuxtjs/dotenv"
   ],
   sitemap: {
-    hostname: 'https://zona9.org.ar/',
+    hostname: "https://zona9.org.ar/",
     gzip: true
   },
   oneSignal: {
@@ -99,7 +101,12 @@ export default {
       }
     }
   },
-
+  /*
+   ** Variables de Entorno
+   */
+  env: {
+    GOOGLE_PHOTOS_KEY: "HOLA MUNDO"
+  },
   manifest: {
     name: "Zona 9 - Scouts de Argentina",
     short_name: "Zona 9",

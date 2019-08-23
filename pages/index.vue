@@ -1,9 +1,7 @@
 <template>
   <div>
-     <install-prompt></install-prompt>
     <links></links>
     <!-- Seccion Noticias -->
-     
 
     <h1 class="h1-responsive">Ultimas Noticias</h1>
     <hr />
@@ -27,8 +25,6 @@
     
 
 <script>
-import InstallPrompt from '../components/InstallPrompt';
-
 const moment = require("moment");
 import axios from "axios";
 import links from "../components/Links";
@@ -54,7 +50,6 @@ import {
 
 export default {
   layout: "inicio",
-
   components: {
     mdbContainer,
     mdbRow,
@@ -73,8 +68,7 @@ export default {
     mdbView,
     mdbMask,
     mdbIcon,
-    links,
-    InstallPrompt
+    links
   },
 
   data() {
@@ -88,7 +82,7 @@ export default {
     }
   },
   mounted: function() {
-    console.log("Hola Mundo");
+    console.log(process.env.GOOGLE_PHOTOS_KEY);
     this.getDatosFb();
   },
   methods: {

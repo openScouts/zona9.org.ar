@@ -1,8 +1,8 @@
 <template>
-  <div class="alert alert-dismissible alert-info" v-if="showInstallBanner">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-    Do you want to <a href="#" @click.prevent="install">agregar esta aplicación a tu pantalla de inicio?</a>
-  </div>
+<nav class="navbar navbar-dark danger-color fixed-bottom"  v-if="showInstallBanner">
+  <a class="navbar-brand" href="#" @click.prevent="install">Instalar como Aplicacion</a>
+</nav>
+
 </template>
 
 
@@ -12,7 +12,7 @@ export default {
   name: 'installPrompt',
   data() {
     return {
-      showInstallBanner: false
+      showInstallBanner: true
     };
   },
   created() {
@@ -21,6 +21,7 @@ export default {
       installEvent = e;
       this.showInstallBanner = true;
     });
+    this.install();
   },
   methods: {
     install() {

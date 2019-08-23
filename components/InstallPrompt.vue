@@ -25,7 +25,7 @@ export default {
     },
   data() {
     return {
-        showInstallBanner: true
+        showInstallBanner: false
     };
   },
   created() {

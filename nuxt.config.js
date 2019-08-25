@@ -94,7 +94,7 @@ export default {
   },
   oneSignal: {
     init: {
-      appId: "5609dcae-8202-473f-8fc5-406e64d420af",
+      appId: process.env.ONESIGNAL_KEY ,
       allowLocalhostAsSecureOrigin: true,
       welcomeNotification: {
         disable: true
@@ -105,7 +105,7 @@ export default {
    ** Variables de Entorno
    */
   env: {
-    GOOGLE_PHOTOS_KEY: process.env.GOOGLE_PHOTOS_KEY
+    ONESIGNAL_KEY: process.env.ONESIGNAL_KEY
   },
   manifest: {
     name: "Zona 9 - Scouts de Argentina",

@@ -23,7 +23,7 @@
     </div>
     <mdb-container class="mt-5 mb-4 text-center text-md-left">
       <mdb-row class="mt-3">
-        <mdb-col md="4" lg="4" xl="4" class="mb-4">
+        <mdb-col md="3" lg="3" xl="3" class="mb-4">
           <h6 class="text-uppercase font-weight-bold">
             <strong>Nosotros</strong>
           </h6>
@@ -33,7 +33,7 @@
             Nuestro medio es la educación no formal, educación alternativa que potencie las capacidades de las personas, que no se agota en un tiempo o en un lugar específico y que se brinda en forma permanente.
           </p>
         </mdb-col>
-        <mdb-col md="4" lg="4" xl="4" class="mb-4">
+        <mdb-col md="3" lg="3" xl="3" class="mb-4">
           <h6 class="text-uppercase font-weight-bold">
             <strong>Links Externos</strong>
           </h6>
@@ -45,7 +45,7 @@
             <a href="https://www.scout.org/es">Organización Mundial del Movimiento Scout</a>
           </p>
         </mdb-col>
-        <mdb-col md="4" lg="4" xl="4" class="mb-4">
+        <mdb-col md="3" lg="3" xl="3" class="mb-4">
           <h6 class="text-uppercase font-weight-bold">
             <strong>Contacto</strong>
           </h6>
@@ -57,11 +57,27 @@
             <i class="fas fa-envelope mr-3"></i> z9.comunicaciones@scouts.org.ar
           </p>
         </mdb-col>
+        <mdb-col md="3" lg="3" xl="3" class="mb-4">
+          <h6 class="text-uppercase font-weight-bold">
+            <strong>Licencias</strong>
+          </h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px" />
+          <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+            <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+            <br />Esta pagina web está bajo una
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+            </a>.
+            <br>
+            A acepción de las fotos de individuos que solo fue autorizado para utilizacion de esta pagina 
+          </p>
+        </mdb-col>
       </mdb-row>
     </mdb-container>
     <div class="footer-copyright text-center py-3">
       <mdb-container fluid>
-        &copy; 2019 Copyright:
+        &copy; 2019 Copyleft:
         <a href="https://caseroft.com.ar">Desarrollador por Andres Lacquaniti</a>
       </mdb-container>
     </div>

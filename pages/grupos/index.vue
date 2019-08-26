@@ -16,7 +16,7 @@
     <mdb-btn color="primary" size="md" @click="filtrar(4)">Distrito 4</mdb-btn>
     <mdb-btn color="primary" size="md" @click="filtrar(5)">Distrito 5</mdb-btn>
     <mdb-btn color="primary" size="md" @click="filtrar(6)">Distrito 6</mdb-btn>
-    <mdb-btn color="primary" size="md" @click="filtrar(7)">Distrito 6</mdb-btn>
+    <mdb-btn color="primary" size="md" @click="filtrar(7)">Distrito 7</mdb-btn>
     <mdb-btn color="primary" size="md" @click="filtrar(0)">Todos</mdb-btn>
 
     <hr />

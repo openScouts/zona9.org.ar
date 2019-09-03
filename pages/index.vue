@@ -9,13 +9,14 @@
       <template v-for="noti in noticias.data">
         <mdb-card sm="4" v-if="noti.full_picture" :key="noti.created_time" wide>
           <mdb-view hover cascade>
-            <a to="#!">
+            <a :href="noti.permalink_url" target="_blank">
               <mdb-card-image :src="noti.full_picture"></mdb-card-image>
               <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
             </a>
           </mdb-view>
           <mdb-card-body class="text-center" cascade>
-            <mdb-card-text>{{ noti.message}}</mdb-card-text>
+            <mdb-card-text v-if="noti.message">{{ noti.message}}</mdb-card-text>
+            <mdb-card-text v-if="noti.attachments">{{ noti.attachments.data[0].description }}</mdb-card-text>
           </mdb-card-body>
         </mdb-card>
       </template>
@@ -95,7 +96,7 @@ export default {
             access_token:
               "EAAG7eaYW56ABAAVhCpRXDbaSf8nRDysihxKWfJo7wjQPHElAG98pqtWi05kQfpLI7tH2pVtqDhcRRTpiID4iATORcDmZBMEZB7NU1Oh3KEAD1WjQO73KKuNJ10YzkV2f3zne8M7LQfVZAbBFIjNpzosM67Arr13ZC1CIosVYUAZDZD",
             fields:
-              "created_time,full_picture,message,story,permalink_url,shares,via,comments,picture,sharedposts",
+              "created_time,full_picture,message,story,permalink_url,shares,via,comments,picture,sharedposts,attachments.limit(10){description}",
             //fields: 'created_time,event,expanded_width,expanded_height,feed_targeting,from,full_picture,height,icon,id,message,message_tags,parent_id,picture,place,privacy,promotable_id,promotion_status,properties,scheduled_publish_time,shares,story,story_tags,subscribed,target,targeting,timeline_visibility,updated_time,via,video_buying_eligibility,width,comments{application,attachment,can_comment,can_like,can_remove,can_reply_privately,comment_count,created_time,from,id,is_private,like_count,live_broadcast_timestamp,message,message_tags,object,parent,permalink_url,private_reply_conversation,user_likes,is_hidden,comments},permalink_url',
             limit: 10,
             transport: "cors"

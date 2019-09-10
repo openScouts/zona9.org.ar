@@ -1,0 +1,10 @@
+[build]
+  publish = "dist"
+  command = "npm run generate"
+[build.environment]
+  YARN_FLAGS = "--no-ignore-optional"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

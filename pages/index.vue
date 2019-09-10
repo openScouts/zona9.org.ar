@@ -15,8 +15,8 @@
             </a>
           </mdb-view>
           <mdb-card-body class="text-center" cascade>
-            <mdb-card-text v-if="noti.message">{{ noti.message}}</mdb-card-text>
-            <mdb-card-text v-if="noti.attachments">{{ noti.attachments.data[0].description }}</mdb-card-text>
+			<mdb-card-text v-if="noti.attachments">{{ noti.attachments.data[0].description }}</mdb-card-text>
+            <mdb-card-text v-else >{{ noti.message}}</mdb-card-text>
           </mdb-card-body>
         </mdb-card>
       </template>

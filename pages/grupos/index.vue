@@ -51,6 +51,8 @@
               <li class="list-group-item">localidad de {{grupo.localidad}}</li>
               <li class="list-group-item">Partido de {{grupo.partido}}</li>
               <li class="list-group-item" v-if="grupo.distrito != 0 ">Distrito {{grupo.distrito}}</li>
+              <li class="list-group-item" v-if="grupo.id < 3000 ">Email  grupo{{grupo.id}}@scouts.org.ar</li>
+              
             </ul>
           </mdb-col>
         </mdb-row>

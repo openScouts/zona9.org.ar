@@ -89,3 +89,6 @@ sw.*
 
 # Vim swap files
 *.swp
+/yarn.lock
+/static/OneSignalSDKUpdaterWorker.js
+/static/OneSignalSDKWorker.js

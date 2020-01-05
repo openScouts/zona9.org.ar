@@ -1,8 +1,8 @@
 {
   "name": "zona9.org.ar",
   "version": "1.0.0",
-  "description": "My phenomenal Nuxt.js project",
-  "author": "Andres Hal",
+  "description": "Zona 9 - Scouts de Argentina",
+  "author": "Andres Lacquaniti",
   "private": true,
   "scripts": {
     "dev": "nuxt",

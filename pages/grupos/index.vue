@@ -27,7 +27,7 @@
             <mdb-view class="mb-lg-0 mb-4">
               <img
                 class="img-fluid"
-                :src="'/imagenes/panuelos/'+grupo.id+'.svg'"
+                :src="'/imagenes/panuelos/' + grupo.id + '.svg'"
                 alt="Sample image"
               />
               <a>
@@ -37,7 +37,7 @@
           </mdb-col>
           <mdb-col lg="7" xl="8">
             <h3 class="font-weight-bold mb-3 p-0">
-              <strong>{{grupo.nombre}} -- Nro {{grupo.id}}</strong>
+              <strong>{{ grupo.nombre }} -- Nro {{ grupo.id }}</strong>
             </h3>
             <!--
           <p class="dark-grey-text">
@@ -46,13 +46,20 @@
             placeat facere aut rerum.
             </p>-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item" v-if="grupo.fundacion">Fundado el {{grupo.fundacion}}</li>
-              <li class="list-group-item">Direccion {{grupo.direccion}}</li>
-              <li class="list-group-item">localidad de {{grupo.localidad}}</li>
-              <li class="list-group-item">Partido de {{grupo.partido}}</li>
-              <li class="list-group-item" v-if="grupo.distrito != 0 ">Distrito {{grupo.distrito}}</li>
-              <li class="list-group-item" v-if="grupo.id < 3000 ">Email  grupo{{grupo.id}}@scouts.org.ar</li>
-              
+              <li v-if="grupo.fundacion" class="list-group-item">
+                Fundado el {{ grupo.fundacion }}
+              </li>
+              <li class="list-group-item">Direccion {{ grupo.direccion }}</li>
+              <li class="list-group-item">
+                localidad de {{ grupo.localidad }}
+              </li>
+              <li class="list-group-item">Partido de {{ grupo.partido }}</li>
+              <li v-if="grupo.distrito != 0" class="list-group-item">
+                Distrito {{ grupo.distrito }}
+              </li>
+              <li v-if="grupo.id < 3000" class="list-group-item">
+                Email grupo{{ grupo.id }}@scouts.org.ar
+              </li>
             </ul>
           </mdb-col>
         </mdb-row>
@@ -62,54 +69,39 @@
   </mdb-container>
 </template>
 
-
-
 <script>
-import Grupos from "../../config/grupos.json";
-import {
-  mdbContainer,
-  mdbRow,
-  mdbCol,
-  mdbCard,
-  mdbCardBody,
-  mdbMask,
-  mdbIcon,
-  mdbView,
-  mdbBtn
-} from "mdbvue";
+import { mdbContainer, mdbRow, mdbCol, mdbMask, mdbView, mdbBtn } from 'mdbvue'
+import Grupos from '../../config/grupos.json'
 export default {
   components: {
     mdbContainer,
     mdbRow,
     mdbCol,
-    mdbCard,
-    mdbCardBody,
     mdbMask,
-    mdbIcon,
     mdbView,
     mdbBtn
-  },
-
-  head() {
-    return {
-      title: "Grupos de la Zona"
-    };
   },
   data() {
     return {
       grupos: Grupos
-    };
+    }
   },
   methods: {
     filtrar(distrito) {
-      if (distrito == 0) {
-        this.grupos = Grupos;
+      if (distrito === 0) {
+        this.grupos = Grupos
       } else {
         this.grupos = Grupos.filter(function(data) {
-          return data.distrito == distrito;
-        });
+          return data.distrito === distrito
+        })
       }
     }
+  },
+
+  head() {
+    return {
+      title: 'Grupos de la Zona'
+    }
   }
-};
+}
 </script>

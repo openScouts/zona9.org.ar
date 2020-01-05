@@ -5,7 +5,7 @@
         <mdb-nav-item to="/" active>Inicio</mdb-nav-item>
         <mdb-nav-item to="/comite">Comite</mdb-nav-item>
         <mdb-nav-item to="/grupos">Grupos</mdb-nav-item>
-		<mdb-nav-item to="/biblioteca">Biblioteca</mdb-nav-item>
+        <mdb-nav-item to="/biblioteca">Biblioteca</mdb-nav-item>
         <mdb-nav-item to="/calendario">Calendario</mdb-nav-item>
         <mdb-nav-item to="/juventud">Juventud</mdb-nav-item>
         <mdb-nav-item to="/inclusion">Inclusión</mdb-nav-item>
@@ -25,7 +25,10 @@
 
       <ul class="navbar-nav nav-flex-icons">
         <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/zona9scoutsargentina">
+          <a
+            class="nav-link"
+            href="https://www.facebook.com/zona9scoutsargentina"
+          >
             <i class="fab fa-lg fa-facebook-f"></i>
           </a>
         </li>
@@ -45,33 +48,14 @@
 </template>
 
 <script>
-import {
-  mdbNavbar,
-  mdbNavItem,
-  mdbNavbarNav,
-  mdbNavbarToggler,
-  mdbDropdown,
-  mdbDropdownItem,
-  mdbDropdownMenu,
-  mdbDropdownToggle,
-  mdbInput,
-  mdbBtn,
-  mdbNavbarBrand
-} from "mdbvue";
+import { mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler } from 'mdbvue'
 export default {
-  name: "NavigationPage",
+  name: 'NavigationPage',
   components: {
     mdbNavbar,
     mdbNavItem,
     mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown,
-    mdbDropdownItem,
-    mdbDropdownMenu,
-    mdbDropdownToggle,
-    mdbInput,
-    mdbBtn,
-    mdbNavbarBrand
+    mdbNavbarToggler
   }
-};
+}
 </script>

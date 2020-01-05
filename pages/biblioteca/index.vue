@@ -12,10 +12,8 @@
   </mdb-container>
 </template>
 
-
-
 <script>
-import { mdbContainer } from "mdbvue";
+import { mdbContainer } from 'mdbvue'
 export default {
   components: {
     mdbContainer
@@ -23,8 +21,8 @@ export default {
 
   head() {
     return {
-      title: "Biblioteca Zonal"
-    };
+      title: 'Biblioteca Zonal'
+    }
   }
-};
+}
 </script>

@@ -5,10 +5,15 @@
       <mdb-container class="text-left">
         <mdb-row class="py-4 d-flex align-items-center">
           <mdb-col md="6" lg="5" class="text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0 white-text">¡Conéctate con nosotros en las redes sociales!</h6>
+            <h6 class="mb-0 white-text">
+              ¡Conéctate con nosotros en las redes sociales!
+            </h6>
           </mdb-col>
           <mdb-col md="6" lg="7" class="text-center text-md-right">
-            <a class="fb-ic ml-0" href="https://www.facebook.com/zona9scoutsargentina">
+            <a
+              class="fb-ic ml-0"
+              href="https://www.facebook.com/zona9scoutsargentina"
+            >
               <i class="fab fa-2x fa-facebook white-text mr-lg-4"></i>
             </a>
             <a class="ins-ic" href="https://www.instagram.com/zona9saac/">
@@ -27,31 +32,45 @@
           <h6 class="text-uppercase font-weight-bold">
             <strong>Nosotros</strong>
           </h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px" />
+          <hr
+            class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+            style="width: 60px"
+          />
           <p>
             Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos.
-            Nuestro medio es la educación no formal, educación alternativa que potencie las capacidades de las personas, que no se agota en un tiempo o en un lugar específico y que se brinda en forma permanente.
+            Nuestro medio es la educación no formal, educación alternativa que
+            potencie las capacidades de las personas, que no se agota en un
+            tiempo o en un lugar específico y que se brinda en forma permanente.
           </p>
         </mdb-col>
         <mdb-col md="3" lg="3" xl="3" class="mb-4">
           <h6 class="text-uppercase font-weight-bold">
             <strong>Links Externos</strong>
           </h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px" />
+          <hr
+            class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+            style="width: 60px"
+          />
           <p>
             <a href="https://www.scouts.org.ar/">Scouts de Argentina</a>
           </p>
           <p>
-            <a href="https://www.scout.org/es">Organización Mundial del Movimiento Scout</a>
+            <a href="https://www.scout.org/es"
+              >Organización Mundial del Movimiento Scout</a
+            >
           </p>
         </mdb-col>
         <mdb-col md="3" lg="3" xl="3" class="mb-4">
           <h6 class="text-uppercase font-weight-bold">
             <strong>Contacto</strong>
           </h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px" />
+          <hr
+            class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+            style="width: 60px"
+          />
           <p>
-            <i class="fas fa-home mr-3"></i> Pelagio Luna 2235,Santos Lugares, Buenos Aires, Martes y Viernes de 19:30 a 21:00 hs
+            <i class="fas fa-home mr-3"></i> Pelagio Luna 2235,Santos Lugares,
+            Buenos Aires, Martes y Viernes de 19:30 a 21:00 hs
           </p>
           <p>
             <i class="fas fa-envelope mr-3"></i> z9.comunicaciones@scouts.org.ar
@@ -61,16 +80,31 @@
           <h6 class="text-uppercase font-weight-bold">
             <strong>Licencias</strong>
           </h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px" />
+          <hr
+            class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+            style="width: 60px"
+          />
           <p>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-            <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >
+              <img
+                alt="Licencia Creative Commons"
+                style="border-width:0"
+                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+            /></a>
             <br />Esta pagina web está bajo una
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-              Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
-            </a>.
-            <br>
-            A acepción de las fotos de individuos que solo fue autorizado para utilizacion de esta pagina 
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >
+              Licencia Creative Commons Atribución-NoComercial-CompartirIgual
+              4.0 Internacional </a
+            >.
+            <br />
+            A acepción de las fotos de individuos que solo fue autorizado para
+            utilizacion de esta pagina
           </p>
         </mdb-col>
       </mdb-row>
@@ -78,21 +112,23 @@
     <div class="footer-copyright text-center py-3">
       <mdb-container fluid>
         &copy; 2019 Copyleft:
-        <a href="https://caseroft.com.ar">Desarrollador por Andres Lacquaniti</a>
+        <a href="https://caseroft.com.ar"
+          >Desarrollador por Andres Lacquaniti</a
+        >
       </mdb-container>
     </div>
   </mdb-footer>
   <!-- Footer -->
 </template>
 <script>
-import { mdbFooter, mdbContainer, mdbRow, mdbCol } from "mdbvue";
+import { mdbFooter, mdbContainer, mdbRow, mdbCol } from 'mdbvue'
 export default {
-  name: "FooterPage",
+  name: 'FooterPage',
   components: {
     mdbFooter,
     mdbContainer,
     mdbRow,
     mdbCol
   }
-};
+}
 </script>

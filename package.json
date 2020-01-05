@@ -1,34 +1,59 @@
 {
   "name": "zona9.org.ar",
   "version": "1.0.0",
-  "description": "Zona 9 - Scouts de Argentina",
-  "author": "Andres Lacquaniti",
+  "description": "My phenomenal Nuxt.js project",
+  "author": "Andres Hal",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
     "@fullcalendar/core": "^4.3.1",
     "@fullcalendar/daygrid": "^4.3.0",
     "@fullcalendar/google-calendar": "^4.3.0",
     "@fullcalendar/vue": "^4.3.1",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/google-analytics": "^2.2.0",
+    "@nuxtjs/axios": "^5.9.2",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/google-analytics": "^2.2.2",
     "@nuxtjs/onesignal": "^3.0.0-beta.16",
-    "@nuxtjs/pwa": "^3.0.0-0",
-    "@nuxtjs/sitemap": "^1.2.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
+    "@nuxtjs/sitemap": "^2.0.1",
+    "bootstrap": "^4.4.1",
     "bootstrap-css-only": "^4.3.1",
-    "fresh-starter": "https://github.com/cssninjaStudio/fresh",
-    "mdbvue": "^5.8.1",
+    "bootstrap-vue": "^2.1.0",
+    "mdbvue": "^6.2.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
-    "nuxt": "^2.0.0",
-    "sass-loader": "^7.2.0",
+    "node-sass": "^4.13.0",
+    "nuxt": "^2.11.0",
+    "sass-loader": "^8.0.0",
     "vue-fullcalendar": "^1.0.9"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.7.7",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.1.0",
+    "@nuxtjs/stylelint-module": "^3.1.1",
+    "babel-eslint": "^10.0.3",
+    "core-js": "3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-nuxt": ">=0.5.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.1"
+  }
 }

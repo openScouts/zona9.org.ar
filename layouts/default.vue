@@ -16,9 +16,9 @@
 </template>
 
 <script>
-import Menu from "../components/Menu";
-import Pie from "../components/Pie";
-import CabeceraMini from "../components/CabeceraMini";
+import Menu from '../components/Menu'
+import Pie from '../components/Pie'
+import CabeceraMini from '../components/CabeceraMini'
 
 export default {
   components: {
@@ -26,6 +26,6 @@ export default {
     CabeceraMini,
     Pie
   },
-  created: function() {}
-};
+  created() {}
+}
 </script>

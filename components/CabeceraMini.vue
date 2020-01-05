@@ -12,23 +12,15 @@
   </div>
 </template>
 
-
 <style scoped>
 .jumbotron {
   margin-top: 54px;
 }
 </style>
 
-
-
-
 <script>
-import { mdbCard, mdbBtn } from "mdbvue";
 export default {
-  name: "JumbotronPage",
-  components: {
-    mdbCard,
-    mdbBtn
-  }
-};
+  name: 'JumbotronPage',
+  components: {}
+}
 </script>

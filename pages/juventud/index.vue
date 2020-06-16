@@ -45,17 +45,17 @@ export default {
     mdbRow,
     mdbCol,
     mdbMask,
-    mdbView
+    mdbView,
   },
   data() {
     return {
-      items: Juventud
+      items: Juventud,
     }
   },
   head() {
     return {
-      title: 'Juventud Zonal'
+      title: 'Juventud Zonal',
     }
-  }
+  },
 }
 </script>

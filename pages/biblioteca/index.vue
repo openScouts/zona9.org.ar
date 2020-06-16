@@ -16,13 +16,13 @@
 import { mdbContainer } from 'mdbvue'
 export default {
   components: {
-    mdbContainer
+    mdbContainer,
   },
 
   head() {
     return {
-      title: 'Biblioteca Zonal'
+      title: 'Biblioteca Zonal',
     }
-  }
+  },
 }
 </script>

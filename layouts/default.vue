@@ -24,8 +24,8 @@ export default {
   components: {
     Menu,
     CabeceraMini,
-    Pie
+    Pie,
   },
-  created() {}
+  created() {},
 }
 </script>

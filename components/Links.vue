@@ -49,12 +49,12 @@ export default {
     mdbContainer,
     mdbRow,
     mdbCol,
-    mdbIcon
+    mdbIcon,
   },
   data() {
     return {
-      links: Links
+      links: Links,
     }
-  }
+  },
 }
 </script>

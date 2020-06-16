@@ -6,8 +6,8 @@ export default {
   server: {
     https: {
       key: fs.readFileSync(path.resolve(__dirname, 'localhost.key')),
-      cert: fs.readFileSync(path.resolve(__dirname, 'localhost.cert'))
-    }
+      cert: fs.readFileSync(path.resolve(__dirname, 'localhost.cert')),
+    },
   },
 
   /*
@@ -23,7 +23,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Zona 9 – Gran Bs. As. Noroeste -  Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos. Nuestro medio es la educación no formal'
+          'Zona 9 – Gran Bs. As. Noroeste -  Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos. Nuestro medio es la educación no formal',
       },
 
       { property: 'og:type', content: 'business.business' },
@@ -32,12 +32,12 @@ export default {
       { property: 'og:image', content: 'https://zona9.org.ar/icon.png' },
       {
         property: 'business:contact_data:street_address',
-        content: 'Pelagio Luna 2235'
+        content: 'Pelagio Luna 2235',
       },
       { property: 'business:contact_data:locality', content: 'Caseros' },
       { property: 'business:contact_data:region', content: 'Buenos Aires' },
       { property: 'business:contact_data:postal_code', content: '1678' },
-      { property: 'business:contact_data:country_name', content: 'Argentina' }
+      { property: 'business:contact_data:country_name', content: 'Argentina' },
     ],
 
     link: [
@@ -45,9 +45,9 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'
-      }
-    ]
+          'https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css',
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color
@@ -58,7 +58,7 @@ export default {
    */
   css: [
     'bootstrap-css-only/css/bootstrap.min.css',
-    '~/node_modules/mdbvue/lib/css/mdb.min.css'
+    '~/node_modules/mdbvue/lib/css/mdb.min.css',
   ],
   /*
    ** Plugins to load before mounting the App
@@ -71,7 +71,13 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/stylelint-module',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-169660723-1',
+      },
+    ],
   ],
   /*
    ** Nuxt.js modules
@@ -79,30 +85,24 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-92295998-1'
-      }
-    ],
     '@nuxtjs/onesignal',
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
   ],
   sitemap: {
     hostname: 'https://zona9.org.ar/',
-    gzip: true
+    gzip: true,
   },
   oneSignal: {
     init: {
       appId: process.env.ONESIGNAL_KEY,
       allowLocalhostAsSecureOrigin: true,
       welcomeNotification: {
-        disable: true
-      }
-    }
+        disable: true,
+      },
+    },
   },
   /*
    ** Axios module configuration
@@ -126,11 +126,11 @@ export default {
             // require.resolve('@nuxt/babel-preset-app-edge'), // For nuxt-edge users
             {
               buildTarget: isServer ? 'server' : 'client',
-              corejs: { version: 3 }
-            }
-          ]
+              corejs: { version: 3 },
+            },
+          ],
         ]
-      }
-    }
-  }
+      },
+    },
+  },
 }

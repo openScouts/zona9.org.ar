@@ -55,7 +55,7 @@ export default {
     mdbNavbar,
     mdbNavItem,
     mdbNavbarNav,
-    mdbNavbarToggler
-  }
+    mdbNavbarToggler,
+  },
 }
 </script>

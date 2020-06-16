@@ -23,7 +23,7 @@ export default {
   components: {
     Menu,
     Cabecera,
-    Pie
+    Pie,
   },
   data() {
     return {
@@ -36,10 +36,10 @@ export default {
           streetAddress: 'Pelagio Luna 2235',
           addressLocality: 'Caseros',
           addressRegion: 'Buenos Aires',
-          postalCode: 'B1678'
+          postalCode: 'B1678',
         },
-        telephone: '0'
-      }
+        telephone: '0',
+      },
     }
   },
   created() {},
@@ -49,10 +49,10 @@ export default {
       script: [
         {
           innerHTML: JSON.stringify(this.structuredData),
-          type: 'application/ld+json'
-        }
-      ]
+          type: 'application/ld+json',
+        },
+      ],
     }
-  }
+  },
 }
 </script>

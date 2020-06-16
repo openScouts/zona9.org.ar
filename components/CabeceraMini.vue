@@ -21,6 +21,6 @@
 <script>
 export default {
   name: 'JumbotronPage',
-  components: {}
+  components: {},
 }
 </script>

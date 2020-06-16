@@ -38,18 +38,18 @@ export default {
     mdbContainer,
     mdbRow,
     mdbCol,
-    mdbView
+    mdbView,
   },
   data() {
     return {
-      comite: comite.comite
+      comite: comite.comite,
     }
   },
   head() {
     return {
-      title: 'Comite Zonal '
+      title: 'Comite Zonal ',
     }
-  }
+  },
 }
 </script>
 

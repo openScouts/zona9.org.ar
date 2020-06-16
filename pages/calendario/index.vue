@@ -7,7 +7,7 @@
       google-calendar-api-key="AIzaSyCQ9aa3u8WaaIwL_93ZkYqEWoKgaWEE1Gk"
       :events="{
         googleCalendarId:
-          'zona9.org.ar_6fgl3k2ddd0jfg589e8cejtpms@group.calendar.google.com'
+          'zona9.org.ar_6fgl3k2ddd0jfg589e8cejtpms@group.calendar.google.com',
       }"
       :plugins="calendarPlugins"
     />
@@ -37,18 +37,18 @@ import googleCalendarPlugin from '@fullcalendar/google-calendar'
 
 export default {
   components: {
-    FullCalendar // make the <FullCalendar> tag available
+    FullCalendar, // make the <FullCalendar> tag available
   },
   data() {
     return {
-      calendarPlugins: [dayGridPlugin, googleCalendarPlugin]
+      calendarPlugins: [dayGridPlugin, googleCalendarPlugin],
     }
   },
 
   head() {
     return {
-      title: 'Calendario Zonal'
+      title: 'Calendario Zonal',
     }
-  }
+  },
 }
 </script>

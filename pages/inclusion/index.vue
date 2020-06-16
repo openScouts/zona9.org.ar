@@ -75,12 +75,12 @@ export default {
     mdbContainer,
     mdbRow,
     mdbCol,
-    mdbIcon
+    mdbIcon,
   },
   head() {
     return {
-      title: 'Equipo de Inclusión'
+      title: 'Equipo de Inclusión',
     }
-  }
+  },
 }
 </script>

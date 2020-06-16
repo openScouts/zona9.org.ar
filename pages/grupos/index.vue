@@ -79,11 +79,11 @@ export default {
     mdbCol,
     mdbMask,
     mdbView,
-    mdbBtn
+    mdbBtn,
   },
   data() {
     return {
-      grupos: Grupos
+      grupos: Grupos,
     }
   },
   methods: {
@@ -91,17 +91,17 @@ export default {
       if (distrito === 0) {
         this.grupos = Grupos
       } else {
-        this.grupos = Grupos.filter(function(data) {
+        this.grupos = Grupos.filter(function (data) {
           return data.distrito === distrito
         })
       }
-    }
+    },
   },
 
   head() {
     return {
-      title: 'Grupos de la Zona'
+      title: 'Grupos de la Zona',
     }
-  }
+  },
 }
 </script>

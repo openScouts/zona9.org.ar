@@ -71,7 +71,7 @@ export default {
     '@nuxtjs/dotenv',
   ],
   env: {
-    FACEBOOK_TOKEN: process.env.FACEBOOK_TOKEN,
+    FACEBOOK_TOKEN: process.env.FACEBOOK_TOKEN || 'xxxxx',
   },
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
@@ -84,6 +84,9 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
+  bootstrapVue: {
+    icons: false,
+  },
   sitemap: {
     hostname: 'https://zona9.org.ar/',
     gzip: true,
@@ -96,4 +99,5 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+  babel: { compact: true },
 }

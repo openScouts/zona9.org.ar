@@ -3,7 +3,6 @@
     <h1 class="h1-responsive font-weight-bold text-center my-5">
       Juventud en la Zona 9
     </h1>
-
     <template v-for="item in items">
       <div :key="item.img">
         <mdb-row>

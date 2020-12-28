@@ -2,7 +2,7 @@
   <mdb-google-map
     name="custom"
     class="col-md-12"
-    style="height: 500px;"
+    style="height: 500px"
     :zoom="14"
     :styles="styles"
     :marker-coordinates="[

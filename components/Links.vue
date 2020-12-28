@@ -16,7 +16,7 @@
               <mdb-col lg="2" md="3" size="2">
                 <mdb-icon :icon="link.icono" size="2x" class="blue-text" />
               </mdb-col>
-              <mdb-col lg="10" md="9" size="10" style="height: 150px;">
+              <mdb-col lg="10" md="9" size="10" style="height: 150px">
                 <h4 class="font-weight-bold">{{ link.titulo }}</h4>
                 <p class="grey-text">{{ link.descripcion }}</p>
               </mdb-col>

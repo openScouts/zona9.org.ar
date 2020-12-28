@@ -1,18 +1,11 @@
-import path from 'path'
-import fs from 'fs'
+require('dotenv').config()
 
 export default {
-  mode: 'spa',
-  server: {
-    https: {
-      key: fs.readFileSync(path.resolve(__dirname, 'localhost.key')),
-      cert: fs.readFileSync(path.resolve(__dirname, 'localhost.cert')),
-    },
-  },
-
-  /*
-   ** Headers of the page
-   */
+  // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
+  ssr: false,
+  // Target (https://go.nuxtjs.dev/config-target)
+  target: 'static',
+  // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Zona 9 – Gran Bs. As. Noroeste - Scouts de Argentina',
     meta: [
@@ -25,7 +18,6 @@ export default {
         content:
           'Zona 9 – Gran Bs. As. Noroeste -  Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos. Nuestro medio es la educación no formal',
       },
-
       { property: 'og:type', content: 'business.business' },
       { property: 'og:title', content: 'Zona 9  - Scouts de Argentina' },
       { property: 'og:url', content: 'https://zona9.org.ar' },
@@ -39,7 +31,6 @@ export default {
       { property: 'business:contact_data:postal_code', content: '1678' },
       { property: 'business:contact_data:country_name', content: 'Argentina' },
     ],
-
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
@@ -53,24 +44,23 @@ export default {
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
-  /*
-   ** Global CSS
-   */
+  // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     'bootstrap-css-only/css/bootstrap.min.css',
     '~/node_modules/mdbvue/lib/css/mdb.min.css',
   ],
-  /*
-   ** Plugins to load before mounting the App
-   */
+
+  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
-  /*
-   ** Nuxt.js dev-modules
-   */
+
+  // Auto import components (https://go.nuxtjs.dev/config-components)
+  components: true,
+
+  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
+    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
+    // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     [
       '@nuxtjs/google-analytics',
@@ -78,59 +68,32 @@ export default {
         id: 'UA-169660723-1',
       },
     ],
-  ],
-  /*
-   ** Nuxt.js modules
-   */
-  modules: [
-    // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt',
-    '@nuxtjs/onesignal',
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
     '@nuxtjs/dotenv',
+  ],
+  env: {
+    FACEBOOK_TOKEN: process.env.FACEBOOK_TOKEN,
+  },
+  // Modules (https://go.nuxtjs.dev/config-modules)
+  modules: [
+    // https://go.nuxtjs.dev/bootstrap
+    'bootstrap-vue/nuxt',
+    // https://go.nuxtjs.dev/axios
+    '@nuxtjs/axios',
+    // https://go.nuxtjs.dev/pwa
+    '@nuxtjs/pwa',
+    // https://go.nuxtjs.dev/content
+    '@nuxt/content',
   ],
   sitemap: {
     hostname: 'https://zona9.org.ar/',
     gzip: true,
   },
-  oneSignal: {
-    init: {
-      appId: process.env.ONESIGNAL_KEY,
-      allowLocalhostAsSecureOrigin: true,
-      welcomeNotification: {
-        disable: true,
-      },
-    },
-  },
-  /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
+  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
-  /*
-   ** Build configuration
-   */
-  build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {},
 
-    babel: {
-      presets({ isServer }) {
-        return [
-          [
-            require.resolve('@nuxt/babel-preset-app'),
-            // require.resolve('@nuxt/babel-preset-app-edge'), // For nuxt-edge users
-            {
-              buildTarget: isServer ? 'server' : 'client',
-              corejs: { version: 3 },
-            },
-          ],
-        ]
-      },
-    },
-  },
+  // Content module configuration (https://go.nuxtjs.dev/config-content)
+  content: {},
+
+  // Build Configuration (https://go.nuxtjs.dev/config-build)
+  build: {},
 }

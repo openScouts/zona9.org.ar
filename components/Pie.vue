@@ -34,7 +34,7 @@
           </h6>
           <hr
             class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-            style="width: 60px;"
+            style="width: 60px"
           />
           <p>
             Formamos parte de un Movimiento Mundial de jóvenes, niños y adultos.
@@ -49,7 +49,7 @@
           </h6>
           <hr
             class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-            style="width: 60px;"
+            style="width: 60px"
           />
           <p>
             <a href="https://www.scouts.org.ar/">Scouts de Argentina</a>
@@ -66,7 +66,7 @@
           </h6>
           <hr
             class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-            style="width: 60px;"
+            style="width: 60px"
           />
           <p>
             <i class="fas fa-home mr-3"></i> Pelagio Luna 2235,Santos Lugares,
@@ -82,7 +82,7 @@
           </h6>
           <hr
             class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-            style="width: 60px;"
+            style="width: 60px"
           />
           <p>
             <a
@@ -91,7 +91,7 @@
             >
               <img
                 alt="Licencia Creative Commons"
-                style="border-width: 0;"
+                style="border-width: 0"
                 src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
             /></a>
             <br />Esta pagina web está bajo una

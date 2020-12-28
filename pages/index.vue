@@ -2,7 +2,6 @@
   <div>
     <links></links>
     <!-- Seccion Noticias -->
-
     <h1 class="h1-responsive">Ultimas Noticias</h1>
     <hr />
     <mdb-card-group column>
@@ -56,11 +55,15 @@ export default {
       return moment(value).format('DD/MM/YYYY')
     },
   },
-
   data() {
     return {
       noticias: {},
     }
+  },
+  computed: {
+    token() {
+      return process.env.FACEBOOK_TOKEN
+    },
   },
   mounted() {
     this.getDatosFb()
@@ -68,22 +71,18 @@ export default {
   methods: {
     getDatosFb() {
       // http://meanandroid.com/latestposts/how-never-expiring-facebook-access-token/
-      const self = this
       this.$axios
         .get('https://graph.facebook.com/v3.3/zona9scoutsargentina/feed', {
           params: {
-            access_token:
-              'EAAG7eaYW56ABAH7TJgZBNwtLyhQynUi9POjMycZB4iS8tIdXNKauel5iSABpomNiuEl1R0WO1VA4g0lR40mBB3k6e168QHBmRycKNc8EEYyrrIyv1q8RVaaoO7J8al0sZA9BZChuVb1JVzQVPrU0ZCNytYJymHZBEvcY6ZBxX4lKgZDZD',
+            access_token: process.env.TOKEN_FB,
             fields:
               'created_time,full_picture,message,story,permalink_url,shares,via,comments,picture,sharedposts,attachments.limit(10){description}',
-            // fields: 'created_time,event,expanded_width,expanded_height,feed_targeting,from,full_picture,height,icon,id,message,message_tags,parent_id,picture,place,privacy,promotable_id,promotion_status,properties,scheduled_publish_time,shares,story,story_tags,subscribed,target,targeting,timeline_visibility,updated_time,via,video_buying_eligibility,width,comments{application,attachment,can_comment,can_like,can_remove,can_reply_privately,comment_count,created_time,from,id,is_private,like_count,live_broadcast_timestamp,message,message_tags,object,parent,permalink_url,private_reply_conversation,user_likes,is_hidden,comments},permalink_url',
             limit: 20,
             transport: 'cors',
           },
         })
-        .then(function (response) {
-          self.noticias = response.data
-          // console.log(response);
+        .then((response) => {
+          this.noticias = response.data
         })
     },
   },

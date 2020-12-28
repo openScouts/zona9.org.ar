@@ -2,16 +2,7 @@
   <div class="container">
     <h1 class="h1-responsive">Calendario de Formacion</h1>
     <hr />
-    <FullCalendar
-      default-view="dayGridMonth"
-      google-calendar-api-key="AIzaSyCQ9aa3u8WaaIwL_93ZkYqEWoKgaWEE1Gk"
-      :events="{
-        googleCalendarId:
-          'zona9.org.ar_6fgl3k2ddd0jfg589e8cejtpms@group.calendar.google.com',
-      }"
-      :plugins="calendarPlugins"
-    />
-
+    <FullCalendar :options="calendarOptions" />
     <hr />
     <h4>Link a Google Calendar</h4>
     <hr />
@@ -25,7 +16,7 @@
 </template>
 
 <style lang="scss">
-@import '@fullcalendar/core/main.css';
+@import '@fullcalendar/common/main.css';
 @import '@fullcalendar/daygrid/main.css';
 </style>
 <script>
@@ -41,7 +32,15 @@ export default {
   },
   data() {
     return {
-      calendarPlugins: [dayGridPlugin, googleCalendarPlugin],
+      calendarOptions: {
+        defaultView: 'dayGridMonth',
+        googleCalendarApiKey: 'AIzaSyCQ9aa3u8WaaIwL_93ZkYqEWoKgaWEE1Gk',
+        events: {
+          googleCalendarId:
+            'zona9.org.ar_6fgl3k2ddd0jfg589e8cejtpms@group.calendar.google.com',
+        },
+        plugins: [dayGridPlugin, googleCalendarPlugin],
+      },
     }
   },
 

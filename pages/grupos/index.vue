@@ -20,7 +20,7 @@
     <mdb-btn color="primary" size="md" @click="filtrar(0)">Todos</mdb-btn>
 
     <hr />
-    <template v-for="grupo in grupos">
+    <template v-for="grupo in grupos.grupos">
       <div :key="grupo.id">
         <mdb-row>
           <mdb-col lg="5" xl="4">

@@ -9,7 +9,7 @@
         cualitativo del territorio <br />Trabajar interdisciplinariamente
       </p>
       <mdb-row>
-        <template v-for="integrante in comite">
+        <template v-for="integrante in comite.comite">
           <mdb-col :key="integrante.codigo" lg="3" md="6" class="mb-lg-0 mb-5">
             <mdb-view hover cascade>
               <img

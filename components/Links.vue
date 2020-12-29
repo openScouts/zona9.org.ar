@@ -10,7 +10,7 @@
       >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       -->
       <mdb-row>
-        <template v-for="link in links">
+        <template v-for="link in links.links">
           <mdb-col :key="link.titulo" md="3" class="md-0 mb-5">
             <mdb-row>
               <mdb-col lg="2" md="3" size="2">

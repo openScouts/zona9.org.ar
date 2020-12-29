@@ -71,7 +71,7 @@ export default {
     '@nuxtjs/dotenv',
   ],
   env: {
-    FACEBOOK_TOKEN: process.env.FACEBOOK_TOKEN || 'xxxxx',
+    FACEBOOK_TOKEN: process.env.FACEBOOK_TOKEN,
   },
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

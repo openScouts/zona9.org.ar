@@ -62,7 +62,8 @@ export default {
   },
   computed: {
     token() {
-      return process.env.FACEBOOK_TOKEN
+      // return process.env.FACEBOOK_TOKEN
+      return 'EAAG7eaYW56ABAMiJCzAbmBhGXfNe1d3BPYxGM4LkgwrsRzayoLQ5oIErJ02nwCNhi8hlL6ixhunHWNv6hhNt97ovmD3vxhZB6i9dLqj4uiDtv0IcJZAktirs0x9LHsUA24nHQYF7gL2daR0CJZAQPwmBoQjryp5JBaHFkA7HQZDZD'
     },
   },
   mounted() {
@@ -74,7 +75,7 @@ export default {
       this.$axios
         .get('https://graph.facebook.com/v3.3/zona9scoutsargentina/feed', {
           params: {
-            access_token: process.env.TOKEN_FB,
+            access_token: this.token,
             fields:
               'created_time,full_picture,message,story,permalink_url,shares,via,comments,picture,sharedposts,attachments.limit(10){description}',
             limit: 20,

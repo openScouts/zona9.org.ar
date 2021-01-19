@@ -23,7 +23,7 @@
     }
   },
   "dependencies": {
-    "@fullcalendar/core": "^5.5.0",
+    "@fullcalendar/core": "^5.5.1",
     "@fullcalendar/daygrid": "^5.5.0",
     "@fullcalendar/google-calendar": "^5.5.0",
     "@fullcalendar/vue": "^5.5.0",
